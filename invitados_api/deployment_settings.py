@@ -22,7 +22,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://frontendinvitados.onrender.com/'
+    'https://frontendinvitados.onrender.com'
 
 ]
 
