@@ -9,7 +9,7 @@ class Invitado(models.Model):
     nombre = models.CharField(max_length=20)
     paterno = models.CharField(max_length=20)
     materno = models.CharField(max_length=20)
-    observacion = models.CharField(max_length=20)
+    observacion = models.CharField(max_length=20,null=True, blank=True)
     pago = models.CharField(max_length=1)
     fecha_autorizacion = models.DateField(null=True, blank=True)
     hora_autorizacion = models.TimeField(null=True, blank=True)
