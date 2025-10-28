@@ -22,7 +22,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://render-deploy-tutorial-reactjs-code.onrender.com'
+    'https://frontendinvitados.onrender.com/',
+    'https://frontendinvitados.onrender.com/buscar'
 ]
 
 STORAGES = {
