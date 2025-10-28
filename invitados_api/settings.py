@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tl9t1w@tmz*e^lk54(xkz=y6!885xs0lpny*pl(_qdyt%zywjj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://frontendinvitados.onrender.com', 'http://localhost:5173']
 
 
 # Application definition
@@ -128,6 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Allow CORS for the frontend running on localhost:5173 (no trailing slash)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://frontendinvitados.onrender.com",
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
