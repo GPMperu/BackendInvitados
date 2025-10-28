@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://frontendinvitados.onrender.com/', 'http://localhost:5173/']
 
-git add .
 # Application definition
 
 INSTALLED_APPS = [
